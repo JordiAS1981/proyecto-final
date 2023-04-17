@@ -1,0 +1,53 @@
+{
+  "tickets": [
+    {
+      "id": 1,
+      "name": "Fiesta de inauguración",
+      "date": "2023-05-20",
+      "time": "22:00",
+      "location": "Discoteca La Luna",
+      "description": "Fiesta de inauguración de la nueva discoteca en la ciudad"
+    },
+    {
+      "id": 2,
+      "name": "Noche de salsa",
+      "date": "2023-06-15",
+      "time": "20:00",
+      "location": "Discoteca El Sol",
+      "description": "Noche de salsa con los mejores DJ de la ciudad"
+    },
+    {
+      "id": 3,
+      "name": "Fiesta de disfraces",
+      "date": "2023-07-10",
+      "time": "23:00",
+      "location": "Discoteca La Estrella",
+      "description": "Fiesta de disfraces con música en vivo"
+    }
+  ],
+  "users": [
+    {
+      "email": "sunshine@mail.com",
+      "password": "123",
+      "name": "Sunshine"
+    }
+  ],
+  "login": [
+    {
+      "email": "sunshine@mail.com",
+      "password": "123"
+    }
+  ],
+  "logout": [
+    {
+    "email": "sunshine@mail.com"
+    }
+  ],
+  "register": [
+    {
+      "email": "sunshine@mail.com",
+      "password": "123",
+      "name": "Sunshine"
+    }
+  ]
+}

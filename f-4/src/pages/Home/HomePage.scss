@@ -1,0 +1,27 @@
+#titulo {
+  font-size: 3.5em;
+  font-weight: bold;
+  color: rgb(22, 229, 229);
+  display: flex;
+  grid-area: 3 / 3 / 4 / 4;
+  align-items: center;
+  margin-left: 188px;;
+}
+
+#titulo2 {
+  font-size: 3.5em;
+  font-weight: bold;
+  color: rgb(22, 229, 229);
+  display: flex;
+  grid-area: 4 / 3 / 5 / 4;
+  align-items: center;
+  margin-left: 317px;
+  margin-right: 268px;
+}
+
+.sun {
+  margin-top: -95px;
+}
+.sun2 {
+  margin-top: -143px;
+}

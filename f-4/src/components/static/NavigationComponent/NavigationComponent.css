@@ -1,0 +1,38 @@
+.navbar {
+  background-color: rgb(0, 0, 0);
+  margin-top: -20px;
+}
+
+.img-navbar {
+  width: 75px;
+  margin-left: 100px;
+}
+
+.ul-navbar {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+.li-navbar-home {
+  padding-left: 775px;
+}
+
+.li-navbar {
+  padding-left: 30px;
+}
+
+#navbar-elements:hover {
+  color: rgb(236, 73, 14);
+  transition: 0.5s;
+}
+
+#navbar-elements {
+  color: rgb(222, 233, 233);
+  font-size: large;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}/*# sourceMappingURL=NavigationComponent.css.map */

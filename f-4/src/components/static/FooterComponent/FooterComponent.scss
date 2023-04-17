@@ -1,0 +1,34 @@
+.FooterComponent {
+    background-color: rgb(99, 85, 68);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5em;
+    color: rgb(225, 172, 172);
+    height: 37px;
+    position: absolute;
+    width: 97%;
+}
+
+.footer_address{
+    font-size: 14px;
+    margin: 0;
+}
+
+.footer_social {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer_social li {
+    margin-left: 10px;
+    list-style: none;
+    align-items: center;
+}
+.footer_social ul {
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+    width: 226px;
+}

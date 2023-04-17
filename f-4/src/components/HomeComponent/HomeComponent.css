@@ -1,0 +1,8 @@
+/*# sourceMappingURL=HomeComponent.css.map */
+.my-component {
+    background-image: url('/my-image.jpg');
+    /* ajuste el tamaño y la posición de la imagen según sea necesario */
+    background-size: cover;
+    background-position: center;
+    /* agregue otros estilos según sea necesario */
+  }
