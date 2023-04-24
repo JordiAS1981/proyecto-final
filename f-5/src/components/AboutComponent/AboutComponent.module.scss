@@ -1,0 +1,17 @@
+.AboutComponent {
+    text-align: center;
+    width: 1420px;
+    height: 457px;
+    font-size: 3.5em;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .AboutComponent {
+        width: 100%;
+        font-size: 2em;
+        height: auto;
+        padding: 20px 10px;
+    }
+}

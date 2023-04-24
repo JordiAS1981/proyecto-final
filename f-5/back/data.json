@@ -1,0 +1,73 @@
+{
+  "tickets": [
+    {
+      "id": 1,
+      "name": "Fiesta de inauguración",
+      "date": "2023-05-20",
+      "time": "22:00",
+      "price": "17",
+      "location": "Sunshine Club",
+      "description": "Fiesta de inauguración de la nueva discoteca en la ciudad",
+      "photo": "https://marketplace.canva.com/EAE9Z4lE1KE/1/0/1131w/canva-flyer-fiesta-playa-neones-5WbbDN4CFqY.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Noche de salsa",
+      "date": "2023-06-15",
+      "time": "20:00",
+      "price": "19",
+      "location": "Sunshine Club",
+      "description": "Musica House All Night Long",
+      "photo": "https://media.gettyimages.com/id/451040153/es/vector/verano-playa-dise%C3%B1o-de-flyer-fiesta-con-bola-de-discoteca.jpg?s=1024x1024&w=gi&k=20&c=NOhHU4KPXML9zpDu_qY8qw9zpflgQQDYDdIpiv5QlTw="
+    },
+    {
+      "id": 3,
+      "name": "Fiesta de disfraces",
+      "date": "10-07-2023",
+      "time": "23:00",
+      "price": "20",
+      "location": "Sunshine Club",
+      "description": "Fiesta de disfraces con música en vivo",
+      "photo": "https://i.pinimg.com/736x/9d/eb/3d/9deb3d1bbee696a696cb5581f010c891--flyer-design-design-layout.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Noche de salsa",
+      "date": "15-06-2023",
+      "time": "20:00",
+      "price": "15",
+      "location": "Sunshine Club",
+      "description": "Noche de salsa con los mejores DJ de la ciudad",
+      "photo": "https://previews.123rf.com/images/vasilyrosca/vasilyrosca1702/vasilyrosca170200232/71501661-dise%C3%B1o-de-flyer-de-fiesta-disco-banner-de-baile-para-club-de-m%C3%BAsica-plantilla-de-discoteca-vida.jpg"
+    }
+  ],
+  "users": [
+    {
+      "email": "sunshine@mail.com",
+      "password": "$2a$10$VzMA61Pr1pQvDxCDHrCBm.cSoYshR17KchtZxxJCvoY0ppeDNy.D6",
+      "id": 1
+    },
+    {
+      "email": "yo@mail.com",
+      "password": "$2a$10$5xZwQHgAF3JguAJGQZtbC.7/ZyicWLZfKds1xOmfkr3ckKoXCg.pi",
+      "name": "yo",
+      "id": 2
+    },
+    {
+      "email": "ojp@mail.com",
+      "password": "$2a$10$J/17YLSdBWyCfBwI1RMHmuum0/er3yrGK//9KQPlLYetP8W2N.L9i",
+      "name": "joj",
+      "id": 3
+    }
+  ],
+  "carrito": [],
+  "newsletter": [
+    {
+      "name": "jordi",
+      "surname": "yo yo",
+      "email": "jijoe@jio.com",
+      "phone": null,
+      "id": 1
+    }
+  ]
+}

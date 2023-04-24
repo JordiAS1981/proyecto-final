@@ -1,0 +1,17 @@
+.carrito1 {
+    border: rgb(240, 232, 232) 5px solid;
+    background-color: white;
+    width: 200px;
+    height: 5000px;
+    text-align: center;
+    display: flex;
+
+}
+
+@media screen and (max-width: 768px) {
+    .carrito1 {
+        height: auto;
+        max-height: 80vh;
+        overflow-y: scroll;
+    }
+}

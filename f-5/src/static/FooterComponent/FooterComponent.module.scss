@@ -1,0 +1,48 @@
+// @import '../../../src/styles/shared/utils/index.scss';
+
+.FooterComponent {
+    background-color: rgb(48, 38, 38);
+    margin-top: 8rem;
+    padding-bottom: 1rem;
+}
+
+.FooterContainer {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.FooterText {
+    text-align: center;
+    color: white;
+    padding-top: 1rem;
+    margin-bottom: 0rem;
+    font-size: 1.2rem;
+}
+
+.FooterLink {
+    color: white;
+    text-decoration: none;
+    padding-right: 2rem;
+
+    &:hover {
+        color: olive;
+    }
+}
+
+.FooterYear {
+    color: white;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .FooterContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .FooterLink {
+        padding-right: 0;
+        margin-bottom: 1rem;
+    }
+}

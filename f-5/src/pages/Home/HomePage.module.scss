@@ -1,0 +1,17 @@
+body {
+    background-image: url('../../assets/fondo.jpg');
+    background-size: cover;
+}
+
+.HomePage {
+    color: aqua;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}

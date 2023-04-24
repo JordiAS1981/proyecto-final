@@ -1,0 +1,52 @@
+.CarritoComponent {
+    width: 1352px;
+    height: 800px;
+    display: flex;
+    background-color: white;
+    margin-top: -32px;
+    margin-bottom: -130px;
+    padding-top: 50px;
+    padding-left: 70px;
+}
+.tiutloCarro {
+    border: solid red 3px;
+    width: 100px;
+    height: 100px;
+}
+.carrito {
+    width: 200px;
+    height: 500px;
+    display:flex;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    align-items: center;
+    padding-right: 30px;
+    border-radius: 30px;
+}
+
+.card_h3 {
+    font-size: large;
+    color: rgb(15, 16, 16);
+    text-align: center;
+    padding-top: 2px;
+    margin: 50px;
+}
+.price {
+    font-size: large;
+    color: rgb(229, 51, 11);
+    text-align: center;
+}
+.button {
+    border: solid rgb(240, 233, 233) 1px;
+    margin-top: 674px;
+    margin-left: 211px;
+    background-color: #567575;
+    width: 503px;
+    height: 111px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+}
