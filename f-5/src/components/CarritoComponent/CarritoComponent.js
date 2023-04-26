@@ -3,13 +3,15 @@ import PropTypes from "prop-types";
 import styles from "./CarritoComponent.module.scss";
 import { Link } from "react-router-dom";
 import axios from "axios";
-import { deletCarritoCompra, clearCarrito } from "../../store/peticiones/actions";
+import { deletCarritoCompra, comentCarrito } from "../../store/peticiones/actions";
 import { useDispatch } from "react-redux";
+import { Button } from "@mui/material";
 
 const CarritoComponent = () => {
   const dispatch = useDispatch();
   const [carrito, setCarrito] = useState([]);
   const [carritoCompra, setCarritoCompra] = useState(0);
+  const [comentariosProducto, setComentariosProducto] = useState({});
 
   const removeFromCart = (producto) => {
     dispatch(deletCarritoCompra(producto.id));
@@ -17,16 +19,20 @@ const CarritoComponent = () => {
     setCarrito(newEventos);
   };
 
-  const handleClearCarrito = async () => {
+  const handleClearCarrito = async (comment) => {
     try {
-      await axios.delete("http://localhost:3000/carrito");
-      await dispatch(clearCarrito());
       setCarrito([]);
       setCarritoCompra(0);
+      await axios.put('http://localhost:3000/carrito/${id}', { comentario: comment });
+      console.log("COMENTARIO ELIMINADO");
     } catch (error) {
       console.log(error);
     }
   };
+
+  const handleComentario = (producto)=> {
+    dispatch(comentCarrito(producto.id, comentariosProducto[producto.id]));
+  }
 
   useEffect(() => {
     const fetchData = async () => {
@@ -62,15 +68,17 @@ const CarritoComponent = () => {
               height={400}
             ></img>
             <p className={styles.card_h3}>{producto.description}</p>
+            <textarea onChange={(e)=> {setComentariosProducto({...comentariosProducto,[producto.id]: e.target.value});}} ></textarea>
+            <Button onClick={()=>handleComentario(producto)}>COMENTA</Button>
             <p className={styles.price}>{producto.price}€</p>
             <button onClick={() => removeFromCart(producto)}>
-              ELIMINAR DEL CARRITO
+              ELIMINAR EVENTO
             </button>
           </div>
         ))}
         </div>
         <div className={styles.button}>
-            <button onClick={handleClearCarrito}>VACIAR CARRITO</button>
+            <button onClick={handleClearCarrito}>ELIMINAR DEL CARRITO</button>
             <p className={styles.card_h3}>PRECIO TOTAL: €{carritoCompra}</p>
             <Link to={"/eventos"}>
               <button>VOLVER A EVENTOS</button>

@@ -29,7 +29,7 @@ const LoginComponent = () => {
 
   return (
     <div className={styles.LoginComponent}>
-      <h3 className={styles.LoginTitle}>USUARIO</h3>
+      <h6 className={styles.LoginTitle}>USUARIO</h6>
       <form>
         <label>Email</label>
         <br />

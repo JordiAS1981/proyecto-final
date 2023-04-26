@@ -24,6 +24,7 @@ const EventosComponent = () => {
       {data.map((item) => (
         <div className={styles.Card_Items}>
           <h3>{item.name}</h3>
+          <p>{item.date}</p>
           <img
             className={styles.imagenEvento}
             src={item.photo}

@@ -1,8 +1,10 @@
 .LoginComponent {
   margin: auto;
+  margin-left: 13px;
   width: 80%;
   max-width: 600px;
   padding: 20px;
+  text-align: center;
 }
 
 .LoginTitle {
@@ -23,16 +25,16 @@
 .LoginButton {
   width: 100%;
   max-width: 200px;
-  background-color: #d3c578;
+  background-color: #514f40;
   color: white;
   padding: 1rem;
   margin: 30px 0;
   border: none;
-  border-radius: 4px;
+  border-radius: 9px;
   cursor: pointer;
   font-size: 1rem;
 
   &:hover {
-    background-color: #776f40;
+    background-color: #774040;
   }
 }

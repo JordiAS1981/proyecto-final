@@ -24,7 +24,7 @@ const RegistroComponent = () => {
 
   return (
     <div className={styles.RegistroComponent}>
-      <h3>REGISTER</h3>
+      <h1>REGISTER</h1>
       <form>
         <label>Nombre</label>
         <input

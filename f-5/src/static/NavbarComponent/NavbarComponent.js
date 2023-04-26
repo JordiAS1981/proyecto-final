@@ -25,7 +25,6 @@ const NavBarComponent = () => {
         <Link className={styles.NavLink} to='/contacto'>CONTACTO </Link>                    
         {user.user && user.user.id? "" : <Link className={styles.NavLink} to='/login'></Link>}          
         {user.user && user.user.id? <Link className={styles.NavLink} to='/private'></Link> : ""} 
-        <Link className={styles.NavLink} to='/private'></Link>
       </nav>
   </div>
   );

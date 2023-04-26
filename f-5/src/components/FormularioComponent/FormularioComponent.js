@@ -6,7 +6,6 @@ import emailjs from "@emailjs/browser";
 import { useRef } from "react";
 import Swal from "sweetalert2";
 import withReactContent from "sweetalert2-react-content";
-
 const FormularioComponent = () => {
   const form = useRef();
   const MySwal = withReactContent(Swal);

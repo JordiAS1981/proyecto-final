@@ -3,6 +3,7 @@
     max-width: 600px;
     margin: auto;
     padding: 10px;
+    align-items: center;
 }
 
 .RegistroInput {
@@ -16,13 +17,14 @@
 }
 
 .RegistroButton {
-    width: 100%;
-    background-color: #d3c578;
+    width: 200px;
+    margin-left: 12px;
+    background-color: #514f40;
     color: white;
     padding: 1rem 1rem;
     margin: 30px 0;
     border: none;
-    border-radius: 4px;
+    border-radius: 9px;
     cursor: pointer;
 
     &:hover {
